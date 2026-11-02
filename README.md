@@ -14,9 +14,11 @@ https://play.google.com/store/apps/details?id=com.cursorandroid.app
 
 ## Bug reports and feedback
 
-There is **no public issue tracker** on this repository.
+There is **no public issue tracker** on this repository. Do not open issues here.
 
-Bug reports and feedback are sent **from inside the app** (Settings → Report a bug; coming in an upcoming update). Do not open issues here.
+Bug reports and feedback are sent **from inside the app** (**Settings → Report a bug**). Each submission is an anonymous report with the text you write plus the app version and Android version. No name, email, API key, or device identifier is attached.
+
+For policy questions, see [PRIVACY.md](PRIVACY.md) (contact: foreverlegion@gmail.com).
 
 ## What this repo is
 
