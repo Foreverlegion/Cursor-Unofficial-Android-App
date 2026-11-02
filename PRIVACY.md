@@ -1,7 +1,7 @@
 # Privacy Policy
 
 Unofficial Cursor for Android (`com.cursorandroid.app`)  
-Last updated: October 7, 2026
+Last updated: November 2, 2026
 
 **Not affiliated with Cursor or Anysphere.** This is an unofficial, personal project by Foreverlegion. It is not made by, endorsed by, sponsored by, or connected to Cursor or Anysphere.
 
@@ -10,7 +10,8 @@ Last updated: October 7, 2026
 - The app is **free**. No ads, no in-app purchases, no paid unlocks from the developer.
 - No third-party advertising SDKs, analytics SDKs, crash reporters, or trackers are embedded by the developer.
 - Your Cursor API key and optional GitHub token are stored **on your device** (encrypted SharedPreferences; if the device cannot provide that, they are kept in memory only and never written to disk in plain text).
-- Network traffic is for Cursor’s public Cloud Agents APIs, and (when you use those features) GitHub for releases/auto-update, optional repo create, and issues/feedback.
+- Network traffic is for Cursor’s public Cloud Agents APIs, optional GitHub features you use with your token, MCP servers you configure, and anonymous in-app feedback when you choose to send it.
+- The app installs and updates **only through Google Play**. There is no in-app update checker and no sideloaded APK distribution from the developer.
 
 ## Data stored on your device
 
@@ -24,11 +25,12 @@ Uninstalling the app removes app-private storage, subject to Android backup/rest
 
 - **Cursor / Anysphere APIs** (for example `api.cursor.com`) — using *your* API key to list agents, start runs, stream status, fetch artifacts, and related Cloud Agents features. Prompts and agent content go to Cursor under your account; this client does not operate a separate agent backend.
 - **Optional browser sign-in** — can open cursor.com flows to mint a user API key for this client.
-- **GitHub** (`api.github.com`, `github.com`, and related GitHub hosts) when you:
-  - Check for or download updates from this project’s GitHub Releases
-  - Create a repository (requires your GitHub token)
-  - Open or submit feedback/issues against the project repository
+- **GitHub** (`api.github.com`, `github.com`, and related GitHub hosts) when you use GitHub-related features that require your token, such as creating a repository from the app.
 - **MCP servers you configure** — if you add HTTP/stdio MCP endpoints, the app contacts those hosts you chose (or Cursor’s cloud VMs as applicable). That is under your control.
+
+## Feedback and bug reports
+
+From **Settings → Report a bug** (or feedback), you can send a report to the developer. It is an **anonymous** report: the text you write, plus the app version and Android version. No name, email, API key, or device identifier is attached. This matches the in-app footer: *Anonymous report from the Android app. No name, email, API key, or device is attached.*
 
 ## Notifications
 
@@ -54,8 +56,10 @@ Updates to this policy will be posted on this page with a revised “Last update
 
 ## Contact
 
-Questions about this policy or the app: use the in-app report option (Settings → Report a bug, coming in an upcoming update), or contact [@Foreverlegion](https://github.com/Foreverlegion) on GitHub.
+Contact: foreverlegion@gmail.com
 
-Project: [github.com/Foreverlegion/Cursor-Unofficial-Android-App](https://github.com/Foreverlegion/Cursor-Unofficial-Android-App)
+You can also use in-app feedback (**Settings → Report a bug**) as described above.
+
+Policy home: [github.com/Foreverlegion/Cursor-Unofficial-Android-App](https://github.com/Foreverlegion/Cursor-Unofficial-Android-App) (`PRIVACY.md` on the default branch).
 
 This public repository has no issue tracker. Do not open GitHub Issues here for privacy questions.
